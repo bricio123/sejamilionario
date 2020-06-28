@@ -1,0 +1,15 @@
+.promotion{
+   
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    border-bottom-left-radius:100% ;
+
+}
+.promotion__copy{
+    padding: 50px;
+    color: #fff;
+}
+.promotion__copy ul{
+    list-style: none;
+}

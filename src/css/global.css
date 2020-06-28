@@ -1,0 +1,10 @@
+*{
+    box-sizing: border-box;
+    font-family: "roboto", sans-serif;
+}
+:root{
+    --color-letter:orange;
+}
+body{
+    background-color: #000;
+}

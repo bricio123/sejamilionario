@@ -1,0 +1,27 @@
+@import url("https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.13.0/css/fontawesome.min.css");
+@import url("https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.13.0/css/all.min.css");
+
+@import "./css/global.css";
+
+/*pag*/
+@import "./css/class.css";
+@import "./css/object.css";
+@import "./css/slide.css";
+@import "./css/testimonials.css";
+@import "./css/promotion.css";
+
+@import "./css/header.css";
+@import "./css/text.css";
+@import "./css/time.css";
+@import "./css/footer.css";
+@import "./css/founder.css";
+@import "./css/features.css";
+@import "./css/page_not_found.css";
+
+
+/*components*/
+@import "./css/buttons.css";
+
+
+/*pagina de login*/
+@import "./css/subscriber/login.css";

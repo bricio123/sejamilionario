@@ -1,0 +1,20 @@
+.btn{
+    background: transparent;
+    padding: 20px;
+    border-radius: 10px;
+    border-bottom: 3px solid black;
+    border-right: 3px solid black;
+    text-decoration: none;
+    color: #fff;
+    font-size: 14px;
+    font-weight: 500;
+    transition: background .5s;
+    box-shadow: 1px 1px 4px var(--color-letter);
+}
+@media screen and (max-width:745px){
+
+}
+.btn:hover{
+    background: rgba(255, 166, 0, 0.78);
+    color: #fff;
+}

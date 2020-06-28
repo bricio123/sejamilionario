@@ -1,0 +1,68 @@
+.object{
+    width: 100%;
+    border-bottom: .5px solid orange;
+}
+.object h3{
+    margin: 20px;
+    color: #fff;
+}
+.icons__copy {
+    display: grid;
+    grid-template-columns: repeat(3, 1fr);
+}
+@media screen and (max-width:894px){
+    .object{
+        
+    }
+    .icons__copy {
+        display: grid;
+        grid-template-columns: repeat(2, 1fr);
+       padding: 0;
+    }
+    
+}
+
+
+.icons__copy li{
+    padding: 50px;
+    text-align: center;
+    color: #fff;
+    font-weight: 300;
+    list-style: none;
+}
+.icons__copy li img{
+    height: 300px;
+    width: 200px ;
+
+}
+@media screen and (max-width:1045px){
+    .icons__copy {
+        max-width: 1000px;
+        margin:0;
+        display: grid;
+       
+    }
+    .icons__copy li img{
+        width: 100px !important;
+        height: 100px;
+    }
+
+}
+@media screen and (max-width:883px){
+   .class__one{
+      display: flex;
+      flex-direction: column;
+   }
+   .class__two{
+    display: flex;
+    flex-direction: column;
+ }
+ .icons__copy{
+     display: flex;
+     flex-direction: column;
+ }
+ 
+}
+.icons__copy li img:hover{
+    width: 205px ;
+}
