@@ -1,0 +1,23 @@
+{
+  "name": "sejamilionario",
+  "version": "1.0.0",
+  "description": "landpage",
+  "main": "src/index.html",
+  "dependencies": {
+    "docker": "^1.0.0",
+    "live": "^0.1.25-beta.0",
+    "live-server": "^1.2.1",
+    "ngrok": "^3.2.7",
+    "server": "^1.0.29",
+    "yarn": "^1.22.4"
+  },
+  "devDependencies": {},
+  "scripts": {
+    "start": "npx live-server  src/ --port=3000",
+    "serve": "cd src && npx ngrok http 4000",
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": "git@github.com:bricio123/sejamilionario.git",
+  "author": "Fabricio sousa <fabricio1234c@gmail.com>",
+  "license": "MIT"
+}
